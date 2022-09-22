@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "teachmeskills"
+version = "0.1.0"
+description = ""
+authors = ["Milana.Avtukh <Milana.Avtukh@x5.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psutil = "^5.9.2"
+prettytable = "^3.4.1"
+black = "^22.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
